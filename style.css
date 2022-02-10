@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(195, 228, 244);
+}
+
+canvas {
+    background-color: rgb(177, 219, 240);
+    border-radius: 10em;
+}
+
+.titulo {
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
+}
+
+footer {
+    padding: 15px;
+    width: 20vw;
+    margin: auto;
+    text-align: center;
+}
+  
+.btn {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 30, 98);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+}
+
+.btn:hover {
+    background-color: rgb(116, 7, 40);
+}
+  
+.text-input {
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 30%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nuevo-juego {
+  display: none;
+}
+
+/* .ahorcado2 {
+    position: relative;
+    animation: temblor 0.3s 1;
+}
+
+@keyframes temblor {
+    0% {
+        transform: translateX(0px);
+        background-color: white;
+    }
+    25% {
+        transform: translateX(5px);
+        background-color: red;
+    }
+    50% {
+        transform: translateX(-10px);
+        background-color: red;
+    }
+    100% {
+        transform: translateX(5px);
+        background-color: white;
+    }
+        
+} */
+
